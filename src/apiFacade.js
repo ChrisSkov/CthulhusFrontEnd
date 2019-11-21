@@ -1,6 +1,6 @@
 import { DNDList } from "./settings";
 
-const URL = "https://goinghamdev.com/CA3";
+const URL = "https://goinghamdev.com/CthulhusBnB/";
 function handleHttpErrors(res) {
   if (!res.ok) {
     return Promise.reject({ status: res.status, fullError: res.json() });
