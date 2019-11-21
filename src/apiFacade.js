@@ -1,6 +1,6 @@
-import { DNDList } from "./settings";
+import { hotelList } from "./settings";
 
-const URL = "https://goinghamdev.com/CthulhusBnB/";
+const URL = "https://localhost:8080/sys";
 function handleHttpErrors(res) {
   if (!res.ok) {
     return Promise.reject({ status: res.status, fullError: res.json() });
@@ -58,7 +58,7 @@ class ApiFacade {
 
   fetchSpell = id => {
     const options = this.makeOptions("GET", false);
-    return fetch(URL + DNDList + id, options).then(handleHttpErrors);
+    return fetch(URL + hotelList + id, options).then(handleHttpErrors);
   };
 }
 const facade = new ApiFacade();
