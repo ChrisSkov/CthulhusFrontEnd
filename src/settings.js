@@ -1,5 +1,5 @@
 export const localURL =
   process.env.NODE_ENV !== "production"
-    ? "http://localhost:8080/sys"
+    ? "https://localhost:8080/sys"
     : "digitaloceanserver";
-export const DNDList = "/api/info/HotelList/";
+export const hotelList = "/api/info/HotelList/";
