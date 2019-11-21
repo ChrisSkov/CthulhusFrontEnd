@@ -1,6 +1,6 @@
 import { DNDList } from "./settings";
 
-const URL = "https://goinghamdev.com/CthulhusBnB/";
+const URL = "http://localhost:8080/sys";
 function handleHttpErrors(res) {
   if (!res.ok) {
     return Promise.reject({ status: res.status, fullError: res.json() });

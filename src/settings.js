@@ -1,5 +1,5 @@
 export const localURL =
   process.env.NODE_ENV !== "production"
-    ? "https://goinghamdev.com/CthulhusBnB/"
+    ? "http://localhost:8080/sys"
     : "digitaloceanserver";
-export const DNDList = "/api/info/AllSpells/";
+export const DNDList = "/api/info/HotelList/";
