@@ -1,6 +1,6 @@
 import { hotelList } from "./settings";
 
-const URL = "http://localhost:8080/sys";
+const URL = "https://goinghamdev.com/CthulhusBnB";
 function handleHttpErrors(res) {
   if (!res.ok) {
     return Promise.reject({ status: res.status, fullError: res.json() });
