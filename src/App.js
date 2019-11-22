@@ -6,7 +6,7 @@ import {
   Switch
 } from "react-router-dom";
 import facade from "./apiFacade";
-import DND from "./components/DND";
+import Hotel from "./components/Hotel";
 import Home from "./components/Home";
 
 class LogIn extends Component {
@@ -121,8 +121,8 @@ const Header = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/DND">
-          Dungeons and Dragons
+        <NavLink activeClassName="active" to="/Hotel">
+          Hotels
         </NavLink>
       </li>
     </ul>
@@ -136,9 +136,9 @@ const Content = () => {
         {" "}
         <Home />{" "}
       </Route>
-      <Route path="/DND">
+      <Route path="/Hotel">
         {" "}
-        <DND />{" "}
+        <Hotel />{" "}
       </Route>
     </Switch>
   );

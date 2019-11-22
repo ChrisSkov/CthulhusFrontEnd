@@ -56,7 +56,7 @@ class ApiFacade {
     return fetch(URL + "/api/info/user", options).then(handleHttpErrors);
   };
 
-  fetchSpell = id => {
+  fetchHotel = id => {
     const options = this.makeOptions("GET", false);
     return fetch(URL + hotelList + id, options).then(handleHttpErrors);
   };
