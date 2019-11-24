@@ -42,8 +42,9 @@ export default function LoggedIn() {
 
   return (
     <div>
-      <h2>Data Received from server</h2>
+      <h2>List of hotels</h2>
       <div>
+        <h3>Type country to find hotels in that country, fx (Denmark)</h3>
         <input
           id="id"
           onChange={event => setId(event.target.value)}
