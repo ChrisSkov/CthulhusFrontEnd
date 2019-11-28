@@ -47,13 +47,16 @@ export default function LoggedIn() {
         <h3>Type country to find hotels in that country, fx (Denmark)</h3>
         <input
           id="id"
-          onChange={event => setId(event.target.value)}
+          onChange={event => {
+            setId(event.target.value);
+          }}
           type="text"
           placeholder="Search"
           value={id}
         />
       </div>
-      {id !== "" && <JSONPretty id="json-pretty" data={data}></JSONPretty>}
+      <JSONPretty id="json-pretty" data={data}></JSONPretty>}
+      <button placeholder="book hotel" />
     </div>
   );
 }
