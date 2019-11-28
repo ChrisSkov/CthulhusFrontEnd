@@ -37,7 +37,6 @@ export default function LoggedIn() {
 
   useEffect(() => {
     facade.fetchHotel(id).then(res => setData(res));
-    //facade.fetchData().then(res => setData(res));
   }, [id]);
 
   return (
