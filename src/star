@@ -1,0 +1,15 @@
+import React, { Component } from 'react';
+
+import CthulhusFrontEnd from 'CthulhusFrontEnd';
+
+export default class App extends Component {
+  state = { value: 0 };
+  render() {
+    return (
+      <BeautyStars
+        value={this.state.value}
+        onChange={value => this.setState({ value })}
+      />
+    );
+  }
+}

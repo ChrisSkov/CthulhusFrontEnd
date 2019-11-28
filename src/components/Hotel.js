@@ -57,5 +57,6 @@ export default function LoggedIn() {
       <JSONPretty id="json-pretty" data={data}></JSONPretty>}
       <button placeholder="book hotel" />
     </div>
+    
   );
 }
