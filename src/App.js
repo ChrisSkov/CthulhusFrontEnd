@@ -8,7 +8,7 @@ import {
 import facade from "./apiFacade";
 import Hotel from "./components/Hotel";
 import Home from "./components/Home";
-import review from "./components/review";
+import Review from "./components/Review";
 
 class LogIn extends Component {
   constructor(props) {
@@ -125,8 +125,8 @@ const Header = () => {
         <NavLink activeClassName="active" to="/Hotel">
           Hotels
         </NavLink>
-        <NavLink activeClassName="active" to="/review">
-          review
+        <NavLink activeClassName="active" to="/Review">
+          Review
         </NavLink>
       </li>
     </ul>
@@ -144,9 +144,9 @@ const Content = () => {
         {" "}
         <Hotel />{" "}
       </Route>
-      <Route path="/review">
+      <Route path="/Review">
         {" "}
-        <review />{" "}
+        <Review />{" "}
       </Route>
     </Switch>
   );
