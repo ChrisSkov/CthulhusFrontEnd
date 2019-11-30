@@ -1,23 +1,21 @@
-import React from "react";
+//import React from "react";
 
 
 
-export default function review() {
-    return (
+//export default function review() {
+  //  return (
       
       
-    <div>
-      
-        <button onclick="myFunction()">Try it</button>
+   // <div>
+ //<button onclick="myFunction()">Try it</button>
         
 
-<script>
-function myFunction() {
-  alert("Tak for din anmeldelse!")
-}
-</script>
+//<script>
+//function myFunction() {
+  //alert("Tak for din anmeldelse!")
+//}
+//</script>
 
-      </div>
-
-    );
-  }
+ //</div>
+  //);
+  //}
