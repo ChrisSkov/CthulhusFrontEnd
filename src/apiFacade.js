@@ -1,4 +1,4 @@
-import { hotelList } from "./settings";
+import { hotelList, ArtinHotel } from "./settings";
 
 const URL = "https://goinghamdev.com/CthulhusBnB";
 function handleHttpErrors(res) {
