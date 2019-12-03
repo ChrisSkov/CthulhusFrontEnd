@@ -1,11 +1,14 @@
 {
-  "name": "ca3front",
+  "name": "hotels.dk",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-json-pretty": "^2.2.0",
+    "bootstrap": "^4.4.0",
+    "firebase": "^7.5.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-firebaseui": "^4.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
