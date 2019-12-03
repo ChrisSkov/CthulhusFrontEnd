@@ -1,35 +1,6 @@
 import React, { useEffect, useState } from "react";
 import JSONPretty from "react-json-pretty";
 import facade from "../apiFacade";
-/*
-const DND = () => {
-  const [hasError, setErrors] = useState(false);
-  const [DND, setDND] = useState({});
-  const [id, setId] = useState(1);
-
-  useEffect(() => {
-    async function fetchData() {
-      const res = await fetch(DNDList);
-      res
-        .json()
-        .then(res => setDND(res))
-        .catch(err => setErrors(err));
-    }
-
-    fetchData();
-  }, []);
-
-  return (
-    <div>
-      <JSONPretty id="json-pretty" data={DND}></JSONPretty>
-
-      <hr />
-      <span>Has error: {JSON.stringify(hasError)}</span>
-    </div>
-  );
-};
-export default DND;
-*/
 
 export default function LoggedIn() {
   const [data, setData] = useState({});
@@ -60,3 +31,33 @@ export default function LoggedIn() {
     
   );
 }
+
+/*
+const DND = () => {
+  const [hasError, setErrors] = useState(false);
+  const [DND, setDND] = useState({});
+  const [id, setId] = useState(1);
+
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch(DNDList);
+      res
+        .json()
+        .then(res => setDND(res))
+        .catch(err => setErrors(err));
+    }
+
+    fetchData();
+  }, []);
+
+  return (
+    <div>
+      <JSONPretty id="json-pretty" data={DND}></JSONPretty>
+
+      <hr />
+      <span>Has error: {JSON.stringify(hasError)}</span>
+    </div>
+  );
+};
+export default DND;
+*/
