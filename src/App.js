@@ -8,7 +8,7 @@ import {
 import facade from "./apiFacade";
 import Hotel from "./components/Hotel";
 import Home from "./components/Home";
-import Review from "./components/Review";
+import Review from "./components/review";
 
 class LogIn extends Component {
   constructor(props) {
